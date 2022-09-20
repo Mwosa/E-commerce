@@ -25,3 +25,6 @@
 .icons div:hover, .icons a:hover{
     -webkit-text-stroke: 2px #d93526;
 }
+.main-slider .carousel-inner .carousel-item img{
+    height: 75vh;
+}
