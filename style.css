@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-transform: none;
+    text-decoration: none;
+}
+.logo {
+    color: #d93526;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+}
+.logo-tech {
+    color: #130f40;
+}
+.navbar a{
+    text-decoration: none;
+    color: #130f40;
+}
+.icons a, .icons div{
+    -webkit-text-stroke: 2px #130f40;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+.icons div:hover, .icons a:hover{
+    -webkit-text-stroke: 2px #d93526;
+}
