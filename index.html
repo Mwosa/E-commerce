@@ -20,7 +20,7 @@
         <div class="row p-3">
 
             <div class="col-lg-3">
-             <a href="#" class="logo"><i class="fa fa-laptop fa-2x p-2"></i><span class="logo-tech fw-bold">TECH</span></a>
+             <a href="#" class="logo"><i class="fa fa-laptop fa-2x p-2"></i><span class="logo-tech fw-bolder">TECH</span></a>
             </div>
 
             <div class="col-lg-6">
@@ -30,6 +30,7 @@
                 <a href="#">Features</a>
                 <a href="#">Reviews</a>
                 <a href="#">Contact</a>
+                <a href="#">Blogs</a>
              </nav>
             </div>
 
@@ -45,36 +46,36 @@
 </header>
 
 <!--carousel section starts-->
-<div class="carousel slide main-slider" id="mycarousel" data-ride="carousel">
-    <ol class="carousel-indicators">
-        <li class="active" data-target="#mycarousel" data-bs-slide-to="0" aria-current="true" aria-label="slide1"></li>
-        <li data-target="#mycarousel" data-bs-slide-to="1"></li>
-        <li data-target="#mycarousel" data-bs-slide-to="2"></li>    
-    </ol>
+<div id="mycarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#mycarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#mycarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#mycarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
 
     <div class="carousel-inner">
         <div class="carousel-item active" data-interval="1000">
-            <img src="./images/image11.jpg" alt="nice image" class=" w-100">
-                <div class="carousel-caption">
+            <img src="./images/image2.jpg" alt="nice image" class=" w-100">
+                <div class="carousel-caption text-start">
                     <p>Sale up to 40%</p>
-                    <h2>Women's Fashion</h2>
-                <a href="#" class="btn btn-primary">shop now</a>
+                    <h2 class="fw-bolder">Women's Fashion</h2>
+                <a href="#" class="btn btn-light shop-now">shop now</a>
                 </div>  
         </div>
         <div class="carousel-item" data-interval="1000">
-            <img src="./images/image22.jpg" alt="nice image" class=" w-100">
-                <div class="carousel-caption">
+            <img src="./images/image3.jpg" alt="nice image" class=" w-100">
+                <div class="carousel-caption text-start">
                     <p>Sale up to 50%</p>
-                    <h2>Men's Fashion</h2>
-                    <a href="#" class="btn btn-primary">shop now</a>
+                    <h2 class="fw-bolder">Men's Fashion</h2>
+                    <a href="#" class="btn btn-light shop-now">shop now</a>
                 </div>  
         </div>
         <div class="carousel-item" data-interval="1000">
-            <img src="./images/image22.jpg" alt="nice image" class=" w-100">
-                <div class="carousel-caption">
+            <img src="./images/image4.jpg" alt="nice image" class=" w-100">
+                <div class="carousel-caption text-start">
                     <p>Sale up to 35%</p>
-                    <h2>Kids's Fashion</h2>
-                    <a href="#" class="btn btn-primary">shop now</a>
+                    <h2 class="fw-bolder">Kids's Fashion</h2>
+                    <a href="#" class="btn btn-light shop-now">shop now</a>
                 </div>  
         </div>
     </div>
@@ -82,12 +83,33 @@
     <button class="carousel-control-prev" type="button" data-bs-target="#mycarousel" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#mycarousel" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#mycarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon " aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
-      </button>
+    </button>
 </div>
+
+<!-- Banner section starts-->
+<section class="main-container p-4">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 ban">
+                <div class="col-lg-2">
+                    <img src="./images/image55.jpg" alt="nice image">
+                </div>
+                <div class="col-lg-2">
+                <p>Sale up to 35%</p>
+                    <h2 class="fw-bolder">Kids's Fashion</h2>
+                    <a href="#" class="btn btn-light shop-now">shop now</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Banner section ends-->
+
 
 
     

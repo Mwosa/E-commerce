@@ -1,4 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 *{
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
     text-transform: none;
@@ -12,6 +14,7 @@
 }
 .logo-tech {
     color: #130f40;
+    font-size: 25px;
 }
 .navbar a{
     text-decoration: none;
@@ -25,6 +28,57 @@
 .icons div:hover, .icons a:hover{
     -webkit-text-stroke: 2px #d93526;
 }
-.main-slider .carousel-inner .carousel-item img{
+
+/*styling the carousel section*/
+.carousel .carousel-inner .carousel-item img{
     height: 75vh;
 }
+.carousel .carousel-inner .carousel-item .carousel-caption{
+    margin-bottom: 100px;    
+}
+.shop-now{
+    margin-top: 1rem;
+    background-color: #d93526;
+    color: #ffffff;
+    border: none;
+    padding: 0.7rem 2.7rem;
+}
+.shop-now:hover{
+    background-color: #130f40;
+}
+.carousel .carousel-inner .carousel-item .carousel-caption h2{
+    color: #d1cdfd;
+    font-size: 40px;
+    word-spacing: 2px;
+}
+.carousel .carousel-control-prev-icon{
+    width: 4rem;
+    height: 4rem;
+    border: 0.2rem solid #d93526;
+    background-color: #130f40;
+    border-radius: 50%;
+    color: #d93526;
+    padding: 0%;
+}
+.carousel .carousel-control-next-icon{
+    width: 4rem;
+    height: 4rem;
+    border: 0.2rem solid #d93526;
+    background-color: #130f40;
+    border-radius: 50%;
+    color: #d93526;
+    padding: 0%;
+}
+.carousel .carousel-control-next-icon:hover{
+    background-color: #d93526;
+    color: #ffffff;
+}
+.carousel .carousel-control-prev-icon:hover{
+    background-color: #d93526;
+    color: #ffffff;
+}
+/*banner section starts*/
+.main-container .container .ban{
+    background: url('./images/image6.jpg');
+}
+/*banner section ends*/
