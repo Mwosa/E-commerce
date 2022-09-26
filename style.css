@@ -280,4 +280,49 @@ section {
     color: #666;
   }
 
+ 
+
   /*exclusive products section ends*/
+
+  /*summer collection section starts*/
+  .deals {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        gap: 2rem;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(20%, #fff), color-stop(21%, #eee));
+    background: linear-gradient(#fff 20%, #eee 21%);
+  }
+  .deals .image {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 42rem;
+            flex: 1 1 42rem;
+  }
+  .deals .image img {
+    width: 35rem;
+  }
+  .deals .content {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 42rem;
+            flex: 1 1 42rem;
+  }
+  .deals .content span {
+    font-size: 1.3rem;
+    color: #eb4d4b;
+    text-transform: capitalize;
+  }
+  .deals .content h3 {
+    font-size: 2.5rem;
+    color: #130f40;
+    margin: 0.5rem 0;
+    text-transform: capitalize;
+  }
+  .deals .content p {
+    font-size: 2.0rem;
+    color: #666;
+  }
