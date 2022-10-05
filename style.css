@@ -329,7 +329,103 @@ section {
     /*summer collection section ends*/
 
 
-      /*featured products section starts*/
-      
-
+    /*featured products section starts*/
+    .featured .featured-slider .slide {
+    overflow: hidden;
+    position: relative;
+    border: 0.16rem solid rgba(0, 0, 0, 0.3);
+    border-radius: 0.5rem;
+    -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+                box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    }
+    .featured .featured-slider .slide .icons{
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 1;
+      height: 32rem;
+      width: 100%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      gap: 1.5rem;
+      background-color: rgba(0, 0, 0, 0.59);
+      -webkit-transform: scale(0);
+          transform: scale(0);
+    }
+    .featured .featured-slider .slide .icons a{
+      font-size: 1.9rem;
+      width: 4rem;
+      height: 4rem;
+      line-height: 4rem;
+      text-align: center;
+      border-radius: 50%;
+      background-color: #fff;
+      border: 0.16rem solid rgba(0, 0, 0, 0.3);
+    }
+    .featured .featured-slider .slide:hover .icons{
+      -webkit-transform: scale(1);
+      transform: scale(1);
+    }
+    .featured .featured-slider .slide .image{
+      height: 32rem;
+      width: 100%;
+      overflow: hidden;
+    }
+    .featured .featured-slider .slide .image img{
+      width: 100%;
+      height: 100%;
+      -o-object-fit: cover;
+      object-fit: cover;
+    }
+    .featured .featured-slider .slide:hover .image img{
+      -webkit-transform: scale(1.15);
+      transform: scale(1.15);
+    }
+    .featured .featured-slider .slide .content{
+      padding: 1rem 1.4rem;
+    }
+    .featured .featured-slider .slide .content h3 {
+      font-size: 1rem;
+      color: #130f40;
+      font-weight: normal;
+    }
+    .featured .featured-slider .slide .content .price{
+      padding: 0.5rem 0;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      gap: 0.5rem;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+    }
+    .featured .featured-slider .slide .content .price .amount{
+      font-size: 1.5rem;
+      color: #130f40;
+      font-weight: bolder;
+    }
+    .featured .featured-slider .slide .content .price .cut {
+      font-size: 1rem;
+      color: #666;
+      text-decoration: line-through;
+    }
+    .featured .featured-slider .slide .content .price .offer {
+      font-size: 1rem;
+      color: #eb4d4b;
+      font-weight: 600;
+    }
+    .featured .featured-slider .slide .content .stars i{
+      font-size: 1.2rem;
+      color: gold;
+      margin-right: 0;
+    }
+    
       /*featured products section ends*/
