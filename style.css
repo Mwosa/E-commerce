@@ -429,3 +429,59 @@ section {
     }
     
       /*featured products section ends*/
+
+      /* review section starts*/
+      .reviews{
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+        background-color: #f9f9f9;
+      }
+      .reviews .review-slider .slide{
+        border-radius: 0.5rem;
+        background-color: #fff;
+        border: 0.16rem solid rgba(0, 0, 0, 0.3);
+        padding: 2.5rem;
+        text-align: center;
+        -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+      }
+      .reviews .review-slider .slide p{
+        font-size: 1.5rem;
+        color: #666;
+        margin-bottom: 2rem;
+        display: -webkit-box;
+        -webkit-line-clamp: 3 !important;
+        -webkit-box-orient: vertical !important;
+        overflow: hidden;
+        height: 7rem;
+      }
+      .reviews .review-slider .slide .user{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        gap: 2.5rem;
+      }
+      .reviews .review-slider .slide .user img{
+        width: 8rem;
+        height: 8rem;
+        -o-object-fit: cover;
+        object-fit: cover;
+        border-radius: 50%;
+      }
+      .reviews .review-slider .slide .user .info h5{
+        font-size: 2rem;
+        color: #130f40;
+        font-weight: 400;
+        text-transform: capitalize;
+      }
+      .reviews .review-slider .slide .user .info span {
+        font-size: 1.7rem;
+        color: #eb4d4b;
+      }
+      /* review section ends*/
